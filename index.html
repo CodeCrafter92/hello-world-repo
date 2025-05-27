@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartik's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Kartik's Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello! I am Kartik, a passionate web developer skilled in HTML, CSS, and JavaScript. I am continuously learning and creating projects to improve my skills. Below are some of the projects I have worked on.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-cards">
+        <!-- Example project card -->
+        <div class="project-card">
+          <img src="project1.jpg" alt="Project 1">
+          <div class="project-info">
+            <h3>Project 1: Responsive Web Design</h3>
+            <p>A responsive website built using HTML and CSS, perfect for mobile, tablet, and desktop screens.</p>
+            <a href="https://link_to_project.com" target="_blank" class="button">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project2.jpg" alt="Project 2">
+          <div class="project-info">
+            <h3>Project 2: Interactive To-Do List</h3>
+            <p>A simple to-do list application built with JavaScript to manage daily tasks.</p>
+            <a href="https://link_to_project.com" target="_blank" class="button">View Project</a>
+          </div>
+        </div>
+
+        <!-- Add more projects here -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you would like to get in touch, feel free to reach out to me via email or through the contact form below.</p>
+      <form action="submit_form" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="button">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Kartik. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
